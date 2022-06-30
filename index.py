@@ -9,5 +9,5 @@ def index():
     
     return render_template('first.html')
 
-
-app.run(host="0.0.0.0", debug=False)
+if __name__ == "__main__":
+    app.run(debug=False)
